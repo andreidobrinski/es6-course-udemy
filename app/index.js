@@ -1,2 +1,8 @@
-console.log('hello webpack');
-console.log('hello in the browser');
+let a = 'hello';
+
+console.log(a);
+
+{
+  let a = 'goodbye';
+  console.log('inside scope: ', a);
+}
