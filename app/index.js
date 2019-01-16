@@ -78,3 +78,18 @@ console.log(a);
 // points = points.map(element => element + 1)
 //
 // console.log(points); // [11, 21, 31]
+
+// Filter
+// let isPassing = (grade) => {
+//   return grade >= 70;
+// }
+//
+// let scores = [90, 85, 67, 71, 70, 55, 92]
+//
+// let passing = scores.filter(isPassing)
+//
+// or
+//
+// let passing = scores.filter(element => elements >= 70)
+//
+// console.log(passing); // [90, 85, 71, 70, 92]
