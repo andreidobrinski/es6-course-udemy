@@ -1,3 +1,5 @@
+// Lesson: let
+
 let a = 'hello';
 
 console.log(a);
@@ -7,6 +9,8 @@ console.log(a);
   console.log('inside scope: ', a);
 }
 
+// Lesson: const
+
 // can't reassign const
 //
 // const array = [1, 2, 3];
@@ -15,3 +19,8 @@ console.log(a);
 //
 // array = [3];
 // // syntax error
+
+// Lesson: template literals
+// let b = 'world';
+// let string = `hello ${b}`;
+// console.log(string); // hello world
