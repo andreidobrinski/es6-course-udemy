@@ -46,3 +46,20 @@ console.log(a);
 // let ranger = { magical: false, power: 9 }
 // ({ magical, power } = ranger)
 // console.log(magical, power); // false 9
+
+// Lesson: arrow functions
+// arrow functions do not create their own 'this' in scope
+//
+// this.a = 25
+// let print = function() {
+//   this.a = 50
+//   console.log('this.a', this.a);
+// }
+//
+// print(); // 50
+//
+// let arrowPrint = () => {
+//   console.log('this.a in arrowPrint', this.a);
+// }
+//
+// arrowPrint(); // 25
