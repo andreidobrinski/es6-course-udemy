@@ -35,3 +35,14 @@ console.log(a);
 // let c = [100, 200]
 // let [a, b] = c
 // console.log(a, b); // 100 200
+
+// Lesson: destructuring objects
+// let wizard = { magical: true, power: 10}
+// let { magical, power } = wizard
+// console.log(magical, power); // true 10
+
+// let magical = true
+// let power = 2
+// let ranger = { magical: false, power: 9 }
+// ({ magical, power } = ranger)
+// console.log(magical, power); // false 9
