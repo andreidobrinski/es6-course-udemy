@@ -63,3 +63,18 @@ console.log(a);
 // }
 //
 // arrowPrint(); // 25
+
+// Map function
+// let points = [10, 20, 30]
+//
+// let addOne = function(element) {
+//   return element + 1;
+// }
+//
+// points = points.map(addOne)
+//
+// or
+//
+// points = points.map(element => element + 1)
+//
+// console.log(points); // [11, 21, 31]
