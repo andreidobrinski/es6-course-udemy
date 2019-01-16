@@ -30,3 +30,8 @@ console.log(a);
 // let a = [7, 8, 9]
 // let b = [6, ...a, 10]
 // console.log(b); // [6, 7, 8, 9, 10]
+
+// Lesson: destructuring arrays
+// let c = [100, 200]
+// let [a, b] = c
+// console.log(a, b); // 100 200
