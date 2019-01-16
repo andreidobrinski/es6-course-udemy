@@ -21,6 +21,12 @@ console.log(a);
 // // syntax error
 
 // Lesson: template literals
+
 // let b = 'world';
 // let string = `hello ${b}`;
 // console.log(string); // hello world
+
+// Lesson: spread operator
+// let a = [7, 8, 9]
+// let b = [6, ...a, 10]
+// console.log(b); // [6, 7, 8, 9, 10]
