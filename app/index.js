@@ -93,3 +93,16 @@ console.log(a);
 // let passing = scores.filter(element => elements >= 70)
 //
 // console.log(passing); // [90, 85, 71, 70, 92]
+
+// Classes
+// arguments in the contructor can be passed in when calling the class with 'new'
+
+// class Entity {
+//   contructor(a, b) {
+//     this.a = a;
+//     this.b = b;
+//   }
+//   // some code
+// }
+//
+// let instance = new Entity(a, b)
